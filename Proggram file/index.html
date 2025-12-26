@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bogra Bank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bank">
+    <h1>🏦 Bogra Bank</h1>
+    <p>Managing Director: Md. Atiqul Islam (Atik)</p>
+
+    <div class="balance">
+        <h2>Balance: ৳ <span id="balance">0</span></h2>
+    </div>
+
+    <input type="number" id="amount" placeholder="Enter amount (৳)">
+
+    <div class="buttons">
+        <button onclick="deposit()">Deposit</button>
+        <button onclick="withdraw()">Withdraw</button>
+        <button onclick="checkDeposit()">Check Deposit</button>
+    </div>
+
+    <h3>Transaction History</h3>
+    <ul id="history"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
